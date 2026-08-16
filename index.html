@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Maison Lume is a design-led boutique hotel in the heart of the city." />
+    <title>Maison Lume | Boutique Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="header">
+      <a class="logo" href="#top" aria-label="Maison Lume home">MAISON <span>LUME</span></a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+      <nav id="navigation" class="navigation" aria-label="Main navigation">
+        <a href="#stay">Stay</a><a href="#experience">Experiences</a><a href="#journal">Journal</a><a class="book-link" href="#book">Book a stay <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="hero-image" role="img" aria-label="A bright, elegant hotel room with warm natural light"></div>
+        <div class="hero-content">
+          <p class="kicker light">A quiet kind of luxury</p>
+          <h1>Stay a little <em>longer.</em></h1>
+          <p class="hero-intro">An intimate retreat shaped by local craft, slow mornings and rooms that invite you to exhale.</p>
+          <a class="circle-link" href="#stay" aria-label="Explore Maison Lume rooms">↓</a>
+        </div>
+        <p class="hero-location">Nairobi, Kenya <span>01° 17′ S</span></p>
+      </section>
+
+      <section id="book" class="booking" aria-label="Find a room">
+        <div class="booking-label"><span class="spark">✦</span><span>Make a reservation</span></div>
+        <label>Check in <input type="text" value="12 Aug 2026" aria-label="Check in date" /></label>
+        <label>Check out <input type="text" value="15 Aug 2026" aria-label="Check out date" /></label>
+        <label>Guests <select aria-label="Guests"><option>2 Guests</option><option>1 Guest</option><option>3 Guests</option><option>4 Guests</option></select></label>
+        <button type="button">Check availability <span>→</span></button>
+      </section>
+
+      <section id="stay" class="intro section">
+        <div><p class="kicker">A home away from home</p><p class="side-note">01 / 04</p></div>
+        <div class="intro-copy"><h2>Designed for <em>unhurried</em> days.</h2><p>Maison Lume is a 24-room hideaway where thoughtful architecture, rich textures and warm hospitality come together. Everything here is made to feel personal.</p><a class="line-link" href="#experience">Discover our story <span>→</span></a></div>
+      </section>
+
+      <section class="gallery-grid" aria-label="Hotel highlights">
+        <figure class="gallery-large"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85" alt="Sunlit pool at a luxury hotel" /><figcaption>Morning light, poolside</figcaption></figure>
+        <figure class="gallery-small"><img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=85" alt="Relaxed hotel lounge seating" /><figcaption>Spaces to settle into</figcaption></figure>
+      </section>
+
+      <section class="rooms section">
+        <div class="section-heading"><p class="kicker">Rooms & suites</p><h2>Rest, <em>beautifully.</em></h2><p>No two rooms are alike. Each one pairs handcrafted pieces with every modern comfort.</p></div>
+        <div class="room-list">
+          <article class="room-card"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1100&q=85" alt="Softly styled hotel bedroom" /><div><p>01</p><h3>The Terrace Room</h3><span>From KSh 18,500 / night</span><a href="#book" aria-label="Book the Terrace Room">↗</a></div></article>
+          <article class="room-card"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1100&q=85" alt="Modern hotel suite with a large bed" /><div><p>02</p><h3>The Garden Suite</h3><span>From KSh 26,000 / night</span><a href="#book" aria-label="Book the Garden Suite">↗</a></div></article>
+        </div>
+      </section>
+
+      <section id="experience" class="experience">
+        <div class="experience-photo" role="img" aria-label="Elegant restaurant table ready for dinner"></div>
+        <div class="experience-copy"><p class="kicker light">Gather around</p><h2>Flavour with a <em>sense of place.</em></h2><p>From a seasonal breakfast in the garden to late-night cocktails at the bar, our kitchen celebrates East African ingredients with a quietly modern point of view.</p><a class="button-light" href="#journal">Explore dining <span>↗</span></a></div>
+      </section>
+
+      <section id="journal" class="journal section"><div class="journal-title"><p class="kicker">The Lume journal</p><h2>Notes from <em>the house.</em></h2></div><a class="journal-item" href="#top"><span>City guide</span><h3>48 hours in Nairobi, at a slower pace</h3><span>Read story ↗</span></a><a class="journal-item" href="#top"><span>Our table</span><h3>The ingredients that shape our kitchen</h3><span>Read story ↗</span></a></section>
+    </main>
+
+    <footer><div><a class="logo" href="#top">MAISON <span>LUME</span></a><p>A design-led boutique stay in the heart of Nairobi.</p></div><div class="footer-links"><a href="#stay">Stay</a><a href="#experience">Dining</a><a href="#book">Reservations</a><a href="mailto:hello@maisonlume.com">hello@maisonlume.com</a></div><p class="copyright">© 2026 Maison Lume<br />Sample website design</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
